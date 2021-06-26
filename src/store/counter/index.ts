@@ -1,6 +1,6 @@
-import createPersist from "../../utils/createPersist"
-import { Action } from "../types"
-import { CounterPayload, CounterState } from "./types"
+import createPersist from '../../utils/createPersist'
+import { Action } from '../types'
+import { CounterPayload, CounterState } from './types'
 
 export const COUNTER_ADD = 'COUNTER_ADD'
 export const COUNTER_SUB = 'COUNTER_SUB'
