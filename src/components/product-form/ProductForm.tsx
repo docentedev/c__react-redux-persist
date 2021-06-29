@@ -14,6 +14,7 @@ const ProductForm = () => {
                 id: new Date().getTime(),
                 name: nameRef.current.value,
             }))
+            nameRef.current.value = ''
         }
     }
     return (
